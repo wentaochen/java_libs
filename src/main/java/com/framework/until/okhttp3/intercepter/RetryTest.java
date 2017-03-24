@@ -1,4 +1,4 @@
-package com.framework.until.okhttp3.retry;
+package com.framework.until.okhttp3.intercepter;
 
 import java.io.IOException;
 
@@ -12,8 +12,6 @@ import okhttp3.ResponseBody;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import com.framework.until.okhttp3.intercepter.RetryIntercepter;
 
 public class RetryTest {
 	String mUrl = "https://www.baidu.com/";
